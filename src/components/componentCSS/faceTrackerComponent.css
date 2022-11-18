@@ -1,0 +1,12 @@
+#faceTracker {
+    position: absolute;
+    border: 2px solid #ff871d3b;
+  }
+
+#faceTrackerContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}

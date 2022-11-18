@@ -1,0 +1,13 @@
+#emotionsContainer {
+    position: relative;
+    width: 402px;
+    height: 141px;
+    background: rgba(0, 0, 0, 0);
+    opacity: 1;
+    border-radius: 41px;
+    display: flex;
+  }
+  .big {
+    height: 210px !important;
+  }
+  
