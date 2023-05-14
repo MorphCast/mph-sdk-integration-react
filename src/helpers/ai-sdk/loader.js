@@ -19,10 +19,11 @@ async function initAiSdk() {
     throw new Error("An instance of the AI-SDK is already running.");
   }
   source = new Source();
+  console.log(process.env.KEYMORPH)
 
   aiSdkInstance = await globalThis.CY.loader()
     // TODO INSERT YOUR LICENSE KEY HERE
-    .licenseKey("insert-here-your-license-key") // <--- ##############
+    .licenseKey("e8228c7fa5a635e3e3de90ec8872c717bbedaa641d00") // <--- ##############
     .source(source)
     .addModule(globalThis.CY.modules().FACE_DETECTOR.name)
     .addModule(globalThis.CY.modules().FACE_EMOTION.name, {
